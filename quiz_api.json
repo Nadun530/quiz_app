@@ -1,25 +1,25 @@
 {
   "success": true,
   "message": "Success",
+  "sliderImages": [
+    {
+      "id": "1",
+      "imageUrl": "https://example.com/image1.jpg"
+    },
+    {
+      "id": "2",
+      "imageUrl": "https://example.com/image2.jpg"
+    },
+    {
+      "id": "3",
+      "imageUrl": "https://example.com/image3.jpg"
+    },
+    {
+      "id": "4",
+      "imageUrl": "https://example.com/image4.jpg"
+    }
+  ],
   "data": {
-    "sliderImages": [
-      {
-        "id": "1",
-        "imageUrl": "https://example.com/image1.jpg"
-      },
-      {
-        "id": "2",
-        "imageUrl": "https://example.com/image2.jpg"
-      },
-      {
-        "id": "3",
-        "imageUrl": "https://example.com/image3.jpg"
-      },
-      {
-        "id": "4",
-        "imageUrl": "https://example.com/image4.jpg"
-      }
-    ],
     "java": [
         {
           "questionNumber": 1,
