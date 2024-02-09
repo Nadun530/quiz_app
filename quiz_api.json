@@ -1,42 +1,151 @@
 {
-    "Success": true,
-    "message": "Success",
-    "data": {
-        "questions": [
-            {
-              "subject": "Java",
-              "questions": [
-                {
-                  "question": "What is the output of 'System.out.println(2 + 3 + \"7\");' in Java?",
-                  "options": ["12", "57", "37", "5"],
-                  "correctAnswer": "57",
-                  "timeTaken": 30
-                },
-                {
-                  "question": "Which of the following is not a primitive data type in Java?",
-                  "options": ["int", "String", "boolean", "char"],
-                  "correctAnswer": "String",
-                  "timeTaken": 30
-                }
-              ]
-            },
-            {
-              "subject": "Python",
-              "questions": [
-                {
-                  "question": "Which statement is used to exit a loop in Python?",
-                  "options": ["break", "exit", "quit", "stop"],
-                  "correctAnswer": "break",
-                  "timeTaken": 30
-                },
-                {
-                  "question": "How do you indicate a block of code in Python?",
-                  "options": ["Curly brackets", "Indentation", "Parentheses", "Semicolons"],
-                  "correctAnswer": "Indentation",
-                  "timeTaken": 30
-                }
-              ]
-            }
-          ]
-    }
+  "success": true,
+  "message": "Success",
+  "data": {
+    "sliderImages": [
+      {
+        "id": "1",
+        "imageUrl": "https://example.com/image1.jpg"
+      },
+      {
+        "id": "2",
+        "imageUrl": "https://example.com/image2.jpg"
+      },
+      {
+        "id": "3",
+        "imageUrl": "https://example.com/image3.jpg"
+      },
+      {
+        "id": "4",
+        "imageUrl": "https://example.com/image4.jpg"
+      }
+    ],
+      "java": [
+        {
+          "questionNumber": 1,
+          "question": "What is the primary use of Java?",
+          "image": "https://example.com/java_question_1_image.png",
+          "options": ["Web Development", "Mobile Development", "Desktop Applications", "All of the above"],
+          "correctAnswer": "All of the above",
+          "timeTaken": "25 seconds"
+        },
+        {
+          "questionNumber": 2,
+          "question": "What is the superclass of all classes in Java?",
+          "image": "https://example.com/java_question_2_image.png",
+          "options": ["Object", "Main", "Class", "None of the above"],
+          "correctAnswer": "Object",
+          "timeTaken": "30 seconds"
+        }
+      ],
+      "python": [
+        {
+          "questionNumber": 1,
+          "question": "What type of language is Python?",
+          "image": "https://example.com/python_question_1_image.png",
+          "options": ["Compiled", "Interpreted", "Both compiled and interpreted", "None of the above"],
+          "correctAnswer": "Interpreted",
+          "timeTaken": "20 seconds"
+        },
+        {
+          "questionNumber": 2,
+          "question": "Which of the following data types is not supported in Python?",
+          "image": "https://example.com/python_question_2_image.png",
+          "options": ["Lists", "Tuples", "Arrays", "Dictionaries"],
+          "correctAnswer": "Arrays",
+          "timeTaken": "22 seconds"
+        }
+      ],
+      "html": [
+        {
+          "questionNumber": 1,
+          "question": "What type of language is Python?",
+          "image": "https://example.com/python_question_1_image.png",
+          "options": ["Compiled", "Interpreted", "Both compiled and interpreted", "None of the above"],
+          "correctAnswer": "Interpreted",
+          "timeTaken": "20 seconds"
+        },
+        {
+          "questionNumber": 2,
+          "question": "Which of the following data types is not supported in Python?",
+          "image": "https://example.com/python_question_2_image.png",
+          "options": ["Lists", "Tuples", "Arrays", "Dictionaries"],
+          "correctAnswer": "Arrays",
+          "timeTaken": "22 seconds"
+        }
+      ],
+      "css": [
+        {
+          "questionNumber": 1,
+          "question": "What type of language is Python?",
+          "image": "https://example.com/python_question_1_image.png",
+          "options": ["Compiled", "Interpreted", "Both compiled and interpreted", "None of the above"],
+          "correctAnswer": "Interpreted",
+          "timeTaken": "20 seconds"
+        },
+        {
+          "questionNumber": 2,
+          "question": "Which of the following data types is not supported in Python?",
+          "image": "https://example.com/python_question_2_image.png",
+          "options": ["Lists", "Tuples", "Arrays", "Dictionaries"],
+          "correctAnswer": "Arrays",
+          "timeTaken": "22 seconds"
+        }
+      ],
+      "java_script": [
+        {
+          "questionNumber": 1,
+          "question": "What type of language is Python?",
+          "image": "https://example.com/python_question_1_image.png",
+          "options": ["Compiled", "Interpreted", "Both compiled and interpreted", "None of the above"],
+          "correctAnswer": "Interpreted",
+          "timeTaken": "20 seconds"
+        },
+        {
+          "questionNumber": 2,
+          "question": "Which of the following data types is not supported in Python?",
+          "image": "https://example.com/python_question_2_image.png",
+          "options": ["Lists", "Tuples", "Arrays", "Dictionaries"],
+          "correctAnswer": "Arrays",
+          "timeTaken": "22 seconds"
+        }
+      ],
+      "dart": [
+        {
+          "questionNumber": 1,
+          "question": "What type of language is Python?",
+          "image": "https://example.com/python_question_1_image.png",
+          "options": ["Compiled", "Interpreted", "Both compiled and interpreted", "None of the above"],
+          "correctAnswer": "Interpreted",
+          "timeTaken": "20 seconds"
+        },
+        {
+          "questionNumber": 2,
+          "question": "Which of the following data types is not supported in Python?",
+          "image": "https://example.com/python_question_2_image.png",
+          "options": ["Lists", "Tuples", "Arrays", "Dictionaries"],
+          "correctAnswer": "Arrays",
+          "timeTaken": "22 seconds"
+        }
+      ],
+      "c": [
+        {
+          "questionNumber": 1,
+          "question": "What type of language is Python?",
+          "image": "https://example.com/python_question_1_image.png",
+          "options": ["Compiled", "Interpreted", "Both compiled and interpreted", "None of the above"],
+          "correctAnswer": "Interpreted",
+          "timeTaken": "20 seconds"
+        },
+        {
+          "questionNumber": 2,
+          "question": "Which of the following data types is not supported in Python?",
+          "image": "https://example.com/python_question_2_image.png",
+          "options": ["Lists", "Tuples", "Arrays", "Dictionaries"],
+          "correctAnswer": "Arrays",
+          "timeTaken": "22 seconds"
+        }
+      ]
+  }
+    
 }
