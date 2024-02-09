@@ -20,7 +20,7 @@
         "imageUrl": "https://example.com/image4.jpg"
       }
     ],
-      "java": [
+    "java": [
         {
           "questionNumber": 1,
           "question": "What is the primary use of Java?",
@@ -37,8 +37,8 @@
           "correctAnswer": "Object",
           "timeTaken": "30 seconds"
         }
-      ],
-      "python": [
+    ],
+    "python": [
         {
           "questionNumber": 1,
           "question": "What type of language is Python?",
@@ -55,8 +55,8 @@
           "correctAnswer": "Arrays",
           "timeTaken": "22 seconds"
         }
-      ],
-      "html": [
+    ],
+    "html": [
         {
           "questionNumber": 1,
           "question": "What type of language is Python?",
@@ -73,8 +73,8 @@
           "correctAnswer": "Arrays",
           "timeTaken": "22 seconds"
         }
-      ],
-      "css": [
+    ],
+    "css": [
         {
           "questionNumber": 1,
           "question": "What type of language is Python?",
@@ -91,8 +91,8 @@
           "correctAnswer": "Arrays",
           "timeTaken": "22 seconds"
         }
-      ],
-      "java_script": [
+    ],
+    "java_script": [
         {
           "questionNumber": 1,
           "question": "What type of language is Python?",
@@ -109,8 +109,8 @@
           "correctAnswer": "Arrays",
           "timeTaken": "22 seconds"
         }
-      ],
-      "dart": [
+    ],
+    "dart": [
         {
           "questionNumber": 1,
           "question": "What type of language is Python?",
@@ -127,8 +127,8 @@
           "correctAnswer": "Arrays",
           "timeTaken": "22 seconds"
         }
-      ],
-      "c": [
+    ],
+    "c": [
         {
           "questionNumber": 1,
           "question": "What type of language is Python?",
@@ -145,7 +145,7 @@
           "correctAnswer": "Arrays",
           "timeTaken": "22 seconds"
         }
-      ]
+    ]
   }
     
 }
