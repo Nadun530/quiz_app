@@ -1,0 +1,39 @@
+{
+    "questions": [
+      {
+        "subject": "Java",
+        "questions": [
+          {
+            "question": "What is the output of 'System.out.println(2 + 3 + \"7\");' in Java?",
+            "options": ["12", "57", "37", "5"],
+            "correctAnswer": "57",
+            "timeTaken": 30
+          },
+          {
+            "question": "Which of the following is not a primitive data type in Java?",
+            "options": ["int", "String", "boolean", "char"],
+            "correctAnswer": "String",
+            "timeTaken": 30
+          }
+        ]
+      },
+      {
+        "subject": "Python",
+        "questions": [
+          {
+            "question": "Which statement is used to exit a loop in Python?",
+            "options": ["break", "exit", "quit", "stop"],
+            "correctAnswer": "break",
+            "timeTaken": 30
+          },
+          {
+            "question": "How do you indicate a block of code in Python?",
+            "options": ["Curly brackets", "Indentation", "Parentheses", "Semicolons"],
+            "correctAnswer": "Indentation",
+            "timeTaken": 30
+          }
+        ]
+      }
+    ]
+  }
+  
